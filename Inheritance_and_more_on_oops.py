@@ -1,4 +1,4 @@
-#single_Inheritance
+"""single_Inheritance"""
 
 class Employee:
     company = 'Google'
@@ -17,7 +17,7 @@ obj = student()
 print(obj.company)
 obj.showDetails()
 
-#Multiple_Inheritance
+"""Multiple_Inheritance"""
 
 class Person():
 
@@ -44,7 +44,7 @@ E = Employee()
 Pr = Programmer()
 Pr.takeBredth()
 
-#Multi_Level_Inheritance
+"""Multi_Level_Inheritance"""
 
 class Person():
     country = 'India'
@@ -70,6 +70,7 @@ P = Person()
 E = Employee()
 Pr = Programmer()
 Pr.takeBredth()
+print(E.country)
 
 
 
