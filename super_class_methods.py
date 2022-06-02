@@ -1,42 +1,42 @@
 
 """super method"""
 
-# class Person():
-#     country = 'India'
+class Person():
+    country = 'India'
 
-#     def __init__(self):
-#         print("Initialising Person..\n")
+    def __init__(self):
+        print("Initialising Person..\n")
 
-#     def takeBredth(self):
-#         print('I am breathing...')
+    def takeBredth(self):
+        print('I am breathing...')
         
-#     def getLife(self):
-#         print('Love your life')
+    def getLife(self):
+        print('Love your life')
 
-# class Employee(Person):
-#     company = 'Honda'
+class Employee(Person):
+    company = 'Honda'
 
-#     def __init__(self):
-#         super().__init__()
-#         print("Initialising Employee...\n")
+    def __init__(self):
+        super().__init__()
+        print("Initialising Employee...\n")
 
-#     def takeBredth(self):
-#         print('I am breathing by the company need...')
+    def takeBredth(self):
+        print('I am breathing by the company need...')
 
-# class Programmer(Employee):
+class Programmer(Employee):
 
-#     def __init__(self):
-#         super().__init__()
-#         print("Initialising Programmer...\n")
+    def __init__(self):
+        super().__init__()
+        print("Initialising Programmer...\n")
 
-#     def getSuccess(self):
-#         print('I am here to find myself')
+    def getSuccess(self):
+        print('I am here to find myself')
 
-# P = Person()
-# E = Employee()
-# Pr = Programmer()
-# Pr.takeBredth()
-# print(E.country)
+P = Person()
+E = Employee()
+Pr = Programmer()
+Pr.takeBredth()
+print(E.country)
 
 
 """class method"""
