@@ -21,7 +21,6 @@ class Employee:
         print("Thanks everyone!!")
 
 abhishek = Employee('abhishek', 500000, 'Data_science')
-abhishek = 
 abhishek.company = 'youtube'
 abhishek.salary = 1000000
 
